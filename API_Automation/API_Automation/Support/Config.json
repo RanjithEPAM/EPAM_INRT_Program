@@ -1,0 +1,6 @@
+﻿{
+  "DummyBaseURL": "https://dummy.restapiexample.com",
+  "ResReqBaseURL": "https://reqres.in",
+  "DummyCreateEmployeesEndpoint": "/api/v1/create",
+  "ResReqGetEmployeesEndpoint": "/api/users/2"
+}
