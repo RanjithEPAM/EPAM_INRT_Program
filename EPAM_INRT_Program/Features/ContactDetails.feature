@@ -7,7 +7,6 @@ Background:
 	When I enter the HRM user credentials
 	Then OrangeHRM home page should be displayed
 
-#just commit
 Scenario: Verification of Contact Details page
 	Given I am on OrangeHRM home page
 	When I navigate to Contact Details page
