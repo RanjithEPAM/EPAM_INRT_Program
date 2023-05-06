@@ -103,7 +103,7 @@ namespace EPAM_INRT_Program.Features
             argumentsOfScenario.Add("Street2", street2);
             argumentsOfScenario.Add("City", city);
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Verification of Contact Details page", null, tagsOfScenario, argumentsOfScenario, this._featureTags);
-#line 11
+#line 10
 this.ScenarioInitialize(scenarioInfo);
 #line hidden
             bool isScenarioIgnored = default(bool);
@@ -126,10 +126,10 @@ this.ScenarioInitialize(scenarioInfo);
 #line 5
 this.FeatureBackground();
 #line hidden
-#line 12
+#line 11
  testRunner.Given("I am on OrangeHRM home page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line hidden
-#line 13
+#line 12
  testRunner.When("I navigate to Contact Details page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line hidden
                 TechTalk.SpecFlow.Table table1 = new TechTalk.SpecFlow.Table(new string[] {
@@ -144,7 +144,7 @@ this.FeatureBackground();
                 table1.AddRow(new string[] {
                             "City",
                             string.Format("{0}", city)});
-#line 14
+#line 13
  testRunner.Then("I should be able to enter below data in Contact details page", ((string)(null)), table1, "Then ");
 #line hidden
             }
