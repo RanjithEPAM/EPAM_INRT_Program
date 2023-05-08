@@ -6,7 +6,7 @@ Background:
 	Given I launch the Orange HRM url
 	When I enter the HRM user credentials
 	Then OrangeHRM home page should be displayed
-	#dummy
+	
 Scenario: Verification of Contact Details page
 	Given I am on OrangeHRM home page
 	When I navigate to Contact Details page
