@@ -17,4 +17,4 @@ using System.Runtime.InteropServices;
 
 [assembly: Guid("5212a7e0-e408-4100-bd44-61065cef0f3a")]
 [assembly: Parallelizable(scope:ParallelScope.Fixtures)]
-[assembly: LevelOfParallelism(3)]
+[assembly: LevelOfParallelism(2)]

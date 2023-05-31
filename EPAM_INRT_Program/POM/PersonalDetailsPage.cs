@@ -1,6 +1,5 @@
 ﻿using INRT.Support;
 using OpenQA.Selenium;
-using OpenQA.Selenium.DevTools.V110.Target;
 using System;
 using System.Collections.Generic;
 using System.Linq;

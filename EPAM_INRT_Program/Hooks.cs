@@ -6,7 +6,6 @@ using Newtonsoft.Json.Serialization;
 using NUnit.Framework.Internal.Execution;
 using OpenQA.Selenium;
 using OpenQA.Selenium.Chrome;
-using OpenQA.Selenium.DevTools.V110.Cast;
 using System.Reflection;
 using TechTalk.SpecFlow;
 
@@ -89,10 +88,10 @@ namespace INRT
         [AfterScenario]
         public static void CloseBrowser()
         {
-            /*
+            
             driver.Close();
             driver.Quit();
-            */
+            
         }
         [AfterFeature]
         public static void TearDownReport()
