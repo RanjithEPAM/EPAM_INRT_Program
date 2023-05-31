@@ -17,6 +17,7 @@ namespace INRT.POM
             this.driver = driver;
         }
         private IWebElement PersonalDetailsLink => driver.FindElement(By.XPath("//a[text()='Personal Details']"));
+        private IWebElement Namefield(string textValue) => driver.FindElement(By.XPath($"//input[@name='{textValue}']"));
         private IWebElement FirstNameTextBox => driver.FindElement(By.XPath("//input[@name='firstName']"));
         private IWebElement LastNameTextBox => driver.FindElement(By.XPath("//input[@name='lastName']"));
        
@@ -29,8 +30,8 @@ namespace INRT.POM
         }
         public void EnterPersonalDetails(string Firstname, string LastName)
         {
-            HelperMethods.EnterGivenText(FirstNameTextBox, Firstname);
-            HelperMethods.EnterGivenText(LastNameTextBox, LastName);
+            HelperMethods.EnterGivenText(Namefield("firstName"), Firstname);
+            HelperMethods.EnterGivenText(Namefield("lastName"), LastName);
             scrollDown();
             HelperMethods.ClickOnElement(saveButton);
         }
